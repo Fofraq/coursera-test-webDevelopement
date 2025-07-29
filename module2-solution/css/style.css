@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.chicken, .beef, .sushi {
+    width: 30.33%;
+    margin: 1.5%;
+    background-color: gray;
+    border: 1px solid black;
+    float: left;
+}
+
+
+p {
+    margin: 8px;
+    padding: 10px 5px;
+    clear: both;
+}
+
+.chicken .box_title {
+    position: relative;
+    font-weight: bold;
+    background-color:pink;
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+    float: right;
+    top: -1px;
+    right: -1px;
+}
+
+.beef .box_title {
+    position: relative;
+    background-color:firebrick;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+    float: right;
+    top: -1px;
+    right: -1px;
+}
+
+.sushi .box_title {
+    position: relative;
+    background-color:khaki;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+    width: 100px;
+    float: right;
+    top: -1px;
+    right: -1px;
+}
